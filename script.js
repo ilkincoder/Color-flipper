@@ -1,4 +1,4 @@
-const colors = ['green' , 'red', 'blue', 'rgba(133, 122, 200)']
+const colors = ['green' , 'red', 'blue', 'rgba(133, 122, 200)', '#f15025']
 
 // Getting dom 
 
@@ -20,7 +20,7 @@ btn.addEventListener('click', function(){
 //  Function to create random color
 function getRandomNumber(){
 
-    return Math.floor(Math.random() *4);
+    return Math.floor(Math.random() *5);
 
 }
 
