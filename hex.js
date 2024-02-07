@@ -22,7 +22,7 @@ btn.addEventListener('click', function(){
 }) ;
 
 
-
+// Function to get random number
 function getRandomNumber(){
     return Math.floor(Math.random() * hex.length);
 
