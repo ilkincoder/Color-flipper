@@ -12,11 +12,14 @@ btn.addEventListener('click', function(){
     // Var to hold hashtag 
     let hexColor = '#';
 
+
+    // For loop to add random letter and numbers to generate HEX Color value
     for (let i = 0; i < 6; i++ ){
 
         hexColor += hex[getRandomNumber()];
     }
 
+    // Updating DOM
     color.textContent = hexColor;
     document.body.style.backgroundColor = hexColor;
 }) ;
